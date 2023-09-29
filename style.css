@@ -1,64 +1,64 @@
 body {
-    background: #f7f7f7 ;
-    font-family: Verdana;
-    max-width: 900px;
-    margin: auto;
+    background: #f7f7f7; /* Cor de fundo do corpo da página */
+    font-family: Verdana; /* Escolha da família de fontes para o texto do corpo */
+    max-width: 900px; /* Largura máxima do conteúdo principal para controlar o layout */
+    margin: auto; /* Centraliza o conteúdo na página horizontalmente */
 }
 
 .photo {
-    border: 1px solid #505050;
-    border-radius: 50%;
-    width: 100px; /* Ajuste a largura desejada */
-    height: 100px; /* Ajuste a altura desejada */
-    object-fit: cover; /* Para manter a proporção da imagem e preencher o círculo */
+    border: 1px solid #505050; /* Define uma borda com cor e largura de 1px */
+    border-radius: 50%; /* Cria uma borda circular, tornando o elemento redondo */
+    width: 100px; /* Define a largura do elemento da foto como 100px */
+    height: 100px; /* Define a altura do elemento da foto como 100px */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço do elemento sem distorção */
 }
 
 #title, .subtitle, .post_title {
-    color: #505050;
+    color: #505050; /* Define a cor do texto para títulos e subtítulos */
 }
 
 #title {
-    font-size: 40px;
-    text-transform: uppercase;
+    font-size: 40px; /* Define o tamanho da fonte para o título principal */
+    text-transform: uppercase; /* Converte o texto do título principal em maiúsculas */
 }
 
 a {
-    text-decoration: line-through;
-    color: #505050;
+    text-decoration: line-through; /* Adiciona uma decoração de linha tracejada aos links */
+    color: #505050; /* Define a cor do texto dos links */
 }
 
 .post_title {
-    font-size: 16px;
-    font-style: italic;
-    margin: 0;
-    margin-bottom: 15px;
+    font-size: 16px; /* Define o tamanho da fonte para os títulos de postagem */
+    font-style: italic; /* Aplica um estilo de fonte itálico aos títulos de postagem */
+    margin: 0; /* Remove margem superior e inferior dos títulos de postagem */
+    margin-bottom: 15px; /* Adiciona margem na parte inferior para espaçamento */
 }
 
-.post{
-    background: #FFF;
-    padding: 10px;
-    border: 3px solid #505050;
-    margin-bottom: 10px;
-    border-radius: 5px;
+.post {
+    background: #FFF; /* Define a cor de fundo das postagens */
+    padding: 10px; /* Adiciona preenchimento interno às postagens */
+    border: 3px solid #505050; /* Cria uma borda com cor e largura de 3px nas postagens */
+    margin-bottom: 10px; /* Adiciona margem inferior para separar as postagens */
+    border-radius: 5px; /* Arredonda as bordas das postagens */
 }
 
 .post_content {
-    margin: 0;
-    margin-bottom: 15px;
-    text-transform: capitalize;
-    text-align: justify;
+    margin: 0; /* Remove margem superior e inferior do conteúdo das postagens */
+    margin-bottom: 15px; /* Adiciona margem na parte inferior para espaçamento */
+    text-transform: capitalize; /* Converte o texto para capitalizar as palavras */
+    text-align: justify; /* Justifica o texto no conteúdo das postagens */
 }
 
 .post_image {
-    margin-bottom: 15px;
-    width: 100%;
+    margin-bottom: 15px; /* Adiciona margem inferior para separar as imagens de postagem */
+    width: 100%; /* Define a largura das imagens de postagem como 100% da largura do contêiner */
 }
 
 .contacts_list {
-    list-style-type: none;
-    padding-left: 15px;
+    list-style-type: none; /* Remove os marcadores de lista padrão */
+    padding-left: 15px; /* Adiciona um recuo à esquerda nas listas de contatos */
 }
 
 .contacts_list li a {
-    text-decoration: none;
+    text-decoration: none; /* Remove a decoração de texto dos links em listas de contatos */
 }
